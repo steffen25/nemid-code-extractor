@@ -6,8 +6,8 @@ before:
     - go mod tidy
 builds:
   - binary: nemid-code
-  - env:
-    - CGO_ENABLED=0
+    env:
+      - CGO_ENABLED=0
 archives:
 - replacements:
     darwin: Darwin
