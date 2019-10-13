@@ -5,8 +5,7 @@ before:
     # you may remove this if you don't use vgo
     - go mod tidy
 builds:
-  -
-    binary: nemid-code
+  - binary: nemid-code
   - env:
     - CGO_ENABLED=0
 archives:
